@@ -1,0 +1,31 @@
+.daily .days {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+
+.days .day {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.daily {
+    border-radius: 25px;
+    box-shadow: 1px 2px 2px 2px rgb(0, 0, 0);
+    background-color: #383838;
+    padding: 25px 5px;
+    text-align: center;
+    width: 85%;
+}
+
+.daily,
+.daily .days {
+    margin: auto;
+}

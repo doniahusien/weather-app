@@ -1,0 +1,27 @@
+.left {
+    border-radius: 25px;
+    box-shadow: 1px 2px 2px 2px rgb(0, 0, 0);
+    background-color: #383838;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 85%;
+    height: 80%;
+    padding: 20px 0;
+}
+
+.left h1 {
+    font-size: 40px;
+}
+
+.left
+ {
+    border-radius: 25px;
+    box-shadow: 1px 2px 2px 2px rgb(0, 0, 0);
+    background-color: #383838;
+    margin: auto;
+}
+
