@@ -2,7 +2,7 @@ const fetchGeolocation = async (city) => {
     if (city === '') {
         alert('Please enter a city name');
     } else {
-        let geoUrl = `https://api.opencagedata.com/geocode/v1/json?q=${city}&key=0ed73374497e46798690896cef7eb079&no_annotations=1`;
+        let geoUrl = `https://api.opencagedata.com/geocode/v1/json?q=${city}&key=e071edc80dd5428abf0cb3a99966b349&no_annotations=1`;
         try {
             let response = await fetch(geoUrl);
             if (response.ok) {
